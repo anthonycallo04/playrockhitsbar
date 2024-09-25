@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de Radio Persistente</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Vincula el archivo CSS -->
+</head>
+<body>
+    <div id="persistentPlayer" class="radio-player">
+        <div class="player-bar">
+            <div class="play-control">
+                <button class="play-btn" id="playBtn">
+                    <img src="assets/play-icon35px.png" alt="Play" id="playIcon">
+                </button>
+            </div>
+            <div class="song-info">
+                <img class="cover-image" id="coverImage" src="assets/logorh.webp" alt="Cover Image">
+                <p class="song-title" id="songTitle"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js"></script> <!-- Vincula el archivo JS -->
+</body>
+</html>
